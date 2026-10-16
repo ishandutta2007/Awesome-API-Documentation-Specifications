@@ -30,77 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global API management and documentation sector is estimated at **$8.5B–$16.2B** (expanding toward $37B+ at a ~17%–30% CAGR), fueled by microservices proliferation, AI-agent tooling, and API-first developer workflows. The sector exhibits a **moderately fragmented** structure rather than a winner-take-all monopoly: enterprise cloud hyper-scalers (Oracle, Google Apigee, AWS, Microsoft) dominate full-lifecycle infrastructure, while specialized point solutions (Postman, SmartBear/SwaggerHub, Mintlify, ReadMe) retain entrenched leadership across API reference rendering, developer portals, and spec-driven developer experience (DX).
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[ReadMe](https://readme.com/)**  
-
-  **The most widely adopted hosted API documentation platform** with **interactive API explorer**, **dynamic examples**, and **developer dashboard**. Features **OpenAPI support**, **custom branding**, and **analytics** on documentation usage. **Trusted by 8,000+ APIs** including GitHub, Stripe, and OpenAI.
-
-
-
-- **[Postman](https://www.postman.com/)**  
-
-  **The most widely adopted API platform** with collections, workspaces, mock servers, and **API documentation generation**. Features **public API network** and **team collaboration**.
-
-
-
-- **[Stoplight](https://stoplight.io/)**  
-
-  **API design-first platform** with visual OpenAPI editor, mocking, and documentation. Features **style guides** and **governance** across the API lifecycle.
-
-
-
-- **[SwaggerHub](https://swagger.io/tools/swaggerhub/)**  
-
-  **API design and documentation platform** built on OpenAPI. Features **collaborative editing**, **versioning**, and **code generation** for client SDKs and server stubs.
-
-
-
-- **[Redocly](https://redocly.com/)**  
-
-  Commercial platform from the **Redoc** creators. Features **hosted documentation**, **API registry**, **linting**, and **CI/CD integration** for spec governance.
-
-
-
-- **[Mintlify](https://mintlify.com/)**  
-
-  **Modern documentation platform** with beautiful defaults, **AI-powered search**, and **OpenAPI support**. **The fastest-growing docs platform** for developer tools.
-
-
-
-- **[Document360](https://document360.com/)**  
-
-  Knowledge base and documentation platform with **API documentation modules**, versioning, and analytics.
-
-
-
-- **[GitBook](https://www.gitbook.com/)**  
-
-  Documentation platform with **Git sync**, **OpenAPI blocks**, and **collaborative editing**. Popular for developer documentation and internal knowledge bases.
-
-
-
-- **[Apiary (Oracle)](https://apiary.io/)**  
-
-  **API design and documentation platform** with **API Blueprint** format support. Acquired by Oracle.
-
-
-
-- **[Speakeasy](https://www.speakeasy.com/)**  
-
-  **SDK generation and API documentation platform**. Generates idiomatic client libraries from OpenAPI specs with **TypeScript, Python, Go, Java, and more**.
+| Product | Scale (Valuation / Revenue) | Starting Paid Pricing | Free Tier Limits / Free Trial | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Apiary (Oracle)](https://apiary.io/)** | **~$400B Market Cap** (Parent: Oracle; TTM Revenue ~$53B–$68B) | **$5.28/user/mo** (Standard tier via Oracle Cloud credits / custom quote) | **Free Forever**: Unlimited public/open API projects (API Blueprint & OpenAPI), mock servers, and interactive docs; max **5 collaborators/project** (no private projects/team RBAC) | API design and documentation platform with API Blueprint & OpenAPI format support. Acquired by Oracle. |
+| **[Postman](https://www.postman.com/)** | **$5.6B Valuation** (ARR ~$313M) | **$9/month** (billed annually, Solo plan) or **$19/user/month** (Team plan) | **Free Forever**: Max **1 user** (single-player), unlimited collection runs & mock servers, **1,000 monitoring requests/month**, **50 AI credits/month** (no team workspaces) | The most widely adopted API platform with collections, workspaces, mock servers, and API documentation generation. |
+| **[SwaggerHub](https://swagger.io/tools/swaggerhub/)** | **~$3.0B Valuation** (Parent: SmartBear; Revenue ~$150M–$200M+) | **$19/user/month** (Individual plan) or **$29/user/month** (Team plan) | **Free Forever**: Open-source tooling / Free cloud tier with max **3 public APIs** and **5 reusable domains**; **14-day free trial** for Team/Enterprise plans | API design and documentation platform built on OpenAPI with collaborative editing, versioning, and code generation. |
+| **[Stoplight](https://stoplight.io/)** | **~$3.0B Valuation** (Parent: SmartBear; acquired 2023) | **$39/month** (Starter plan) or **$75/month** (Pro plan) | **Free Forever**: Max **3 users**, basic API design tools, core documentation rendering, and mock servers; **14-day free trial** for Pro plans | API design-first platform with visual OpenAPI editor, mocking, documentation, and Spectral governance style guides. |
+| **[Mintlify](https://mintlify.com/)** | **$500M Valuation** (Series B $45M in 2026; 20k+ customers) | **$450/month** (billed annually) or **$540/month** (Pro plan) | **Free Forever**: Max **5 editor seats**, custom domain or subdomain hosting, Git sync, MCP server support, and interactive API playground (no AI writing/assistant features); **14-day free trial** of Pro | Modern documentation platform with beautiful defaults, AI-powered search/chat, and OpenAPI support. |
+| **[Document360](https://document360.com/)** | **~$100M+ Valuation** (Bootstrapped; Kovai.co ARR ~$20M+, Doc360 ~$10M ARR) | **$149/month** (billed annually for Standard starter plan; sales quote-based) | **14-Day Free Trial**: Full access to knowledge base features, API documentation modules, and Eddy AI preview (permanent free tier was discontinued) | Knowledge base and documentation platform with API documentation modules, versioning, and analytics. |
+| **[ReadMe](https://readme.com/)** | **~$36M Valuation** (Series A; ARR ~$8M–$11M) | **$250/month** (billed annually, Pro plan) | **Free Forever**: Max **1 project**, custom domain, bi-directional Git sync, interactive API reference explorer, and metrics (single editor; no branch review or AI tools) | Hosted API documentation platform with interactive API explorer, dynamic examples, OpenAPI support, and developer metrics. |
+| **[Speakeasy](https://www.speakeasy.com/)** | **$25.9M Funding** (Series A $15M in late 2024; revenue private) | **$600/month/language** (billed annually, Business tier) | **Free Forever**: Max **1 SDK target language** and **250 operations (endpoints)** with core OpenAPI pipeline and automated README docs generation | SDK generation and API documentation platform generating idiomatic client libraries from OpenAPI specs. |
+| **[GitBook](https://www.gitbook.com/)** | **Bootstrapped / Profitable** (ARR ~$3.7M–$4.0M) | **$65/site/month + $12/user/month** (billed annually, Essential plan) | **Free Forever**: Max **1 user**, GitHub/GitLab sync, block editor, and auto-generated API docs (no custom domains, team collaboration, or AI Assistant) | Documentation platform with Git sync, OpenAPI blocks, and collaborative editing for technical documentation. |
+| **[Redocly](https://redocly.com/)** | **Bootstrapped / Private** (Team size ~50; ARR private) | **$10/seat/month** (Pro plan; minimum starter projects from $69/mo) | **30-Day Free Trial**: Pro portal trial; plus 100% free open-source Redoc CE & Redocly CLI with no usage caps for local/CI rendering | Commercial API docs platform from Redoc creators featuring hosted docs, API registry, linting, and spec governance. |
 
 
 
