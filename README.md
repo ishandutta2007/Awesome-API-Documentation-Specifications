@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-API-Documentation-Specifications/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Documentation-Specifications?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Documentation-Specifications/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Documentation-Specifications?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Documentation-Specifications/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Documentation-Specifications?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-API-Documentation-Specifications/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -65,7 +65,7 @@ The global API management and documentation sector is estimated at **$8.5B–$16
 
 ## 🛠️ Open-Source GitHub Projects
 
-Curated open-source projects for self-hosting, spec rendering, linting, and docs pipelines, sorted by GitHub star count (descending):
+Curated open-source projects for self-hosting, spec rendering, linting, and docs pipelines, sorted by GitHub Stars_Count (descending):
 
 1. **[Docusaurus](https://github.com/facebook/docusaurus)** [![Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers)  
    **The most popular open-source documentation framework** (MIT). Supports OpenAPI reference rendering via plugins (`docusaurus-plugin-openapi-docs`), multi-versioning, i18n, and Algolia search. Powers technical developer documentation for Meta, Supabase, and thousands of tech products.
@@ -176,7 +176,7 @@ If you find this curated ecosystem directory helpful for your development workfl
 
 1. 🍴 Fork the repository.
 2. 📝 Add or edit entries in `README.md` following the established table / list format.
-3. 🔗 Include: official product/project name, direct link, GitHub star badge (for OSS), concise description, and pricing/scale details.
+3. 🔗 Include: official product/project name, direct link, GitHub Stars_Badge (for OSS), concise description, and pricing/scale details.
 4. 🚀 Submit a Pull Request with a clear explanation of why the addition benefits the API ecosystem.
 
 ---
