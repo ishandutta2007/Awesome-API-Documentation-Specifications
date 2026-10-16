@@ -1,46 +1,50 @@
-# Awesome-API-Documentation-Specifications
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome API Documentation and Specifications Banner" width="100%" />
+</p>
 
-## Top API Documentation & Specifications Ecosystem
+# 📚 Awesome API Documentation & Specifications
 
+> 🚀 **The definitive curated index of OpenAPI 3.1 & Swagger renderers, interactive developer portals, API spec linters, mock servers, and automated SDK generators.**
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Documentation-Specifications/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-API-Documentation-Specifications?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Documentation-Specifications/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-API-Documentation-Specifications?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-API-Documentation-Specifications/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
 
-*Focused on OpenAPI Reference Rendering, Interactive Docs & Spec-First Workflows*  
+### 🌐 Overview & Purpose
 
-**Last updated: October 2026**
+This repository tracks standout **SaaS platforms** and **open-source developer tools** for **API Documentation & Specifications**. These solutions empower API platform teams, technical writers, and developer experience (DevEx / DX) engineers to design, validate, render, and govern specifications—converting OpenAPI (OAS 3.0 / 3.1), AsyncAPI, and Arazzo definitions into interactive reference portals, type-safe client SDKs, mock servers, and automated CI/CD governance checks that stay synchronized with backend implementations.
 
+* **Key SaaS Leaders**: ReadMe, Postman, Stoplight, SwaggerHub, Redocly, Mintlify, Document360, GitBook, Apiary, and Speakeasy.
+* **Open-Source Standard**: Production-ready tools including Swagger UI, Redoc, Scalar, OpenAPI Generator, Spectral, Docusaurus, Slate, and AsyncAPI for transparent, self-hosted, vendor-independent developer platforms.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **API Documentation & Specifications**. These tools enable teams to author, validate, render, and publish API specifications—turning OpenAPI definitions into interactive reference docs, SDKs, and governance checks that stay in sync with implementation.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS / Hosted Platforms](#-saashosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 Support & Sponsorship](#-support--sponsorship)
+- [✍️ How to Contribute](#️-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include ReadMe, Postman, Stoplight, SwaggerHub, Redocly, Mintlify, Document360, GitBook, Apiary, and Speakeasy (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, spec rendering, and open documentation pipelines—ideal for API product teams, developer experience engineers, and technical writers seeking transparent, vendor-independent documentation.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global API management and documentation sector is estimated at **$8.5B–$16.2B** (expanding toward $37B+ at a ~17%–30% CAGR), fueled by microservices proliferation, AI-agent tooling, and API-first developer workflows. The sector exhibits a **moderately fragmented** structure rather than a winner-take-all monopoly: enterprise cloud hyper-scalers (Oracle, Google Apigee, AWS, Microsoft) dominate full-lifecycle infrastructure, while specialized point solutions (Postman, SmartBear/SwaggerHub, Mintlify, ReadMe) retain entrenched leadership across API reference rendering, developer portals, and spec-driven developer experience (DX).
 
-## SaaS/Hosted Platforms
+---
+
+## 💼 SaaS/Hosted Platforms
 
 | Product | Scale (Valuation / Revenue) | Starting Paid Pricing | Free Tier Limits / Free Trial | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,154 +61,135 @@ The global API management and documentation sector is estimated at **$8.5B–$16
 
 
 
-## Open-Source GitHub Projects
+---
 
+## 🛠️ Open-Source GitHub Projects
 
+Curated open-source projects for self-hosting, spec rendering, linting, and docs pipelines, sorted by GitHub star count (descending):
 
-- **[Redoc](https://github.com/Redocly/redoc)**  
+1. **[Docusaurus](https://github.com/facebook/docusaurus)** [![Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers)  
+   **The most popular open-source documentation framework** (MIT). Supports OpenAPI reference rendering via plugins (`docusaurus-plugin-openapi-docs`), multi-versioning, i18n, and Algolia search. Powers technical developer documentation for Meta, Supabase, and thousands of tech products.
 
-  **The most widely used open-source OpenAPI reference documentation generator** (MIT) . **24,000+ GitHub stars** . **Three-panel design optimized for reading**—not just testing. **Generates clean, interactive API reference from OpenAPI/Swagger specs** with **code samples, schema trees, and search**. **Self-hostable, framework-agnostic, and embeddable** in any web application. **The standard for open-source API reference rendering.**
+2. **[Insomnia](https://github.com/Kong/insomnia)** [![Stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)  
+   **Open-source API design and testing platform** (Apache-2.0). Features full OpenAPI spec authoring, live linting, environment management, and automated document generation for REST, GraphQL, gRPC, and WebSocket APIs.
 
+3. **[Slate](https://github.com/slatedocs/slate)** [![Stars](https://img.shields.io/github/stars/slatedocs/slate?style=social&color=white)](https://github.com/slatedocs/slate/stargazers)  
+   **Beautiful static documentation generator for APIs** (Apache-2.0). Pioneered the iconic three-panel layout (navigation, documentation, code examples) that inspired modern documentation tools like Redoc and Stripe Docs.
 
+4. **[OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification)** [![Stars](https://img.shields.io/github/stars/OAI/OpenAPI-Specification?style=social&color=white)](https://github.com/OAI/OpenAPI-Specification/stargazers)  
+   **The official specification repository for OpenAPI (OAS 3.0 / 3.1)** (Apache-2.0). The vendor-neutral industry standard under the Linux Foundation for defining machine-readable RESTful interfaces.
 
-- **[Swagger UI](https://github.com/swagger-api/swagger-ui)**  
+5. **[Swagger UI](https://github.com/swagger-api/swagger-ui)** [![Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers)  
+   **Visual documentation and interactive exploration for OpenAPI specifications** (Apache-2.0). Embedded into web frameworks across virtually every programming language with interactive "Try it out" test executions.
 
-  **Visual documentation for OpenAPI specifications** (Apache-2.0) . **28,000+ GitHub stars** . **Interactive API exploration with "Try it out" functionality** . **The most widely deployed API documentation tool**—embedded in frameworks across every language. **Self-hostable and framework-agnostic.**
+6. **[OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)** [![Stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers)  
+   **Generate API client SDKs, server stubs, and documentation from OpenAPI specs** (Apache-2.0). Supports 50+ languages and frameworks; the foundational open-source tool for turning specs into production client libraries.
 
+7. **[Redoc](https://github.com/Redocly/redoc)** [![Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers)  
+   **The most widely used open-source OpenAPI reference documentation generator** (MIT). Responsive three-panel layout optimized for deep reading, complex schema trees, payload examples, and client-side search.
 
+8. **[MkDocs](https://github.com/mkdocs/mkdocs)** [![Stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social&color=white)](https://github.com/mkdocs/mkdocs/stargazers)  
+   **Fast, simple static site generator for project documentation** (BSD-2-Clause). Python-native documentation framework with extensive OpenAPI plugins (`mkdocs-autorefs`, `mkdocstrings`) and the popular Material for MkDocs theme.
 
-- **[Scalar](https://github.com/scalar/scalar)**  
+9. **[VitePress](https://github.com/vuejs/vitepress)** [![Stars](https://img.shields.io/github/stars/vuejs/vitepress?style=social&color=white)](https://github.com/vuejs/vitepress/stargazers)  
+   **Vite-powered static site generator for documentation** (MIT). Vue-native documentation engine offering instant hot-reloading, minimal build times, and community OpenAPI integration plugins.
 
-  **The most modern open-source API documentation renderer** (MIT) . **OpenAPI/Swagger-generated API reference** with **beautiful defaults, dark mode, and built-in API client**. **The emerging favorite** for teams wanting Swagger UI functionality with modern design.
+10. **[Swagger Codegen](https://github.com/swagger-api/swagger-codegen)** [![Stars](https://img.shields.io/github/stars/swagger-api/swagger-codegen?style=social&color=white)](https://github.com/swagger-api/swagger-codegen/stargazers)  
+    **Official SmartBear code generator for OpenAPI specifications** (Apache-2.0). Automatically generates client libraries, server boilerplate stubs, and static API documentation in dozens of languages.
 
+11. **[Scalar](https://github.com/scalar/scalar)** [![Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)  
+    **Modern open-source API documentation renderer and client** (MIT). OpenAPI/Swagger-native reference renderer featuring modern aesthetics, dark mode, integrated interactive API client, and fast rendering.
 
+12. **[Nextra](https://github.com/shuding/nextra)** [![Stars](https://img.shields.io/github/stars/shuding/nextra?style=social&color=white)](https://github.com/shuding/nextra/stargazers)  
+    **Next.js-based documentation framework** (MIT). Full React ecosystem power with Next.js App Router/Pages Router compatibility, Markdown/MDX authoring, and custom OpenAPI component embedding.
 
-- **[OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)**  
+13. **[Swagger Editor](https://github.com/swagger-api/swagger-editor)** [![Stars](https://img.shields.io/github/stars/swagger-api/swagger-editor?style=social&color=white)](https://github.com/swagger-api/swagger-editor/stargazers)  
+    **Browser-based editor for designing and editing OpenAPI specifications** (Apache-2.0). Provides real-time visual preview alongside spec editing with syntax validation and autocompletion.
 
-  **Generate API clients, server stubs, and documentation from OpenAPI specs** (Apache-2.0) . **23,000+ GitHub stars** . **Supports 50+ languages and frameworks** . **The standard for SDK generation from specifications**—creates typed clients that eliminate hand-written integration code.
+14. **[Mockoon](https://github.com/mockoon/mockoon)** [![Stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)  
+    **Fast and easy local mock servers tool** (MIT). Allows developers to import OpenAPI specifications and instantly spin up realistic local mock APIs for frontend testing and documentation demos.
 
+15. **[openapi-typescript](https://github.com/openapi-ts/openapi-typescript)** [![Stars](https://img.shields.io/github/stars/openapi-ts/openapi-typescript?style=social&color=white)](https://github.com/openapi-ts/openapi-typescript/stargazers)  
+    **Generate TypeScript types from OpenAPI 3.0 & 3.1 specifications** (MIT). Ultra-fast Node.js CLI converting specs into strict TypeScript interfaces with zero runtime overhead.
 
+16. **[AsyncAPI Specification](https://github.com/asyncapi/spec)** [![Stars](https://img.shields.io/github/stars/asyncapi/spec?style=social&color=white)](https://github.com/asyncapi/spec/stargazers)  
+    **The open specification for event-driven architectures** (Apache-2.0). Extends OpenAPI-style specification rigor to message brokers and streaming protocols including WebSockets, Apache Kafka, MQTT, RabbitMQ, and AMQP.
 
-- **[Spectral](https://github.com/stoplightio/spectral)**  
+17. **[Fern](https://github.com/fern-api/fern)** [![Stars](https://img.shields.io/github/stars/fern-api/fern?style=social&color=white)](https://github.com/fern-api/fern/stargazers)  
+    **Open-source platform for SDK generation and documentation** (MIT). Compiles OpenAPI definitions into typed client libraries for TypeScript, Python, Go, and Java alongside responsive developer documentation websites.
 
-  **The most powerful open-source API linter** (Apache-2.0) . **2,800+ GitHub stars** . **Validates OpenAPI, AsyncAPI, and Arazzo documents** against style guides and best practices. **Enforces API governance in CI/CD**—catches breaking changes, naming violations, and documentation gaps before merge.
+18. **[Spectral](https://github.com/stoplightio/spectral)** [![Stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers)  
+    **A flexible, JSON/YAML linter for API specifications** (Apache-2.0). Validates OpenAPI, AsyncAPI, and Arazzo specs against custom organizational style guides, security rules, and linting standards in CI/CD.
 
+19. **[Elements](https://github.com/stoplightio/elements)** [![Stars](https://img.shields.io/github/stars/stoplightio/elements?style=social&color=white)](https://github.com/stoplightio/elements/stargazers)  
+    **Embeddable API documentation components** (Apache-2.0). Powered by Stoplight's rendering engine; embed interactive API reference docs into any existing React application or static HTML page.
 
+20. **[RapiDoc](https://github.com/rapi-doc/RapiDoc)** [![Stars](https://img.shields.io/github/stars/rapi-doc/RapiDoc?style=social&color=white)](https://github.com/rapi-doc/RapiDoc/stargazers)  
+    **Custom web component for OpenAPI documentation** (MIT). Highly customizable, fast, zero-dependency HTML component rendering OpenAPI specs with customizable themes and inline test consoles.
 
-- **[Redocly CLI](https://github.com/Redocly/redocly-cli)**  
+21. **[Widdershins](https://github.com/Mermade/widdershins)** [![Stars](https://img.shields.io/github/stars/Mermade/widdershins?style=social&color=white)](https://github.com/Mermade/widdershins/stargazers)  
+    **Convert OpenAPI 3.0, Swagger 2.0, and AsyncAPI definitions to Markdown** (MIT). Bridges machine-readable specs with static documentation engines like Slate, Shins, and Jekyll.
 
-  **Open-source CLI for OpenAPI validation, bundling, and rendering** (MIT) . **The command-line companion to Redoc**—lint, bundle, preview, and build documentation from the terminal.
+22. **[Optic](https://github.com/opticdev/optic)** [![Stars](https://img.shields.io/github/stars/opticdev/optic?style=social&color=white)](https://github.com/opticdev/optic/stargazers)  
+    **API versioning, linting, and breaking change detection** (MIT). Tracks OpenAPI spec changes across pull requests, prevents unintended breaking changes, and enforces API consistency in CI.
 
+23. **[Redocly CLI](https://github.com/Redocly/redocly-cli)** [![Stars](https://img.shields.io/github/stars/Redocly/redocly-cli?style=social&color=white)](https://github.com/Redocly/redocly-cli/stargazers)  
+    **All-in-one CLI for OpenAPI 3.0, 3.1, and Swagger 2.0** (MIT). Lint specifications, split/bundle multi-file definitions, preview docs locally, and build production reference bundles.
 
+24. **[Zudoku](https://github.com/zuplo/zudoku)** [![Stars](https://img.shields.io/github/stars/zuplo/zudoku?style=social&color=white)](https://github.com/zuplo/zudoku/stargazers)  
+    **Modern, pluggable API documentation framework** (MIT). Built with TypeScript and Vite to render OpenAPI documentation, interactive API playgrounds, and custom Markdown prose.
 
-- **[Docusaurus](https://github.com/facebook/docusaurus)**  
+25. **[Arazzo Specification](https://github.com/OAI/Arazzo-Specification)** [![Stars](https://img.shields.io/github/stars/OAI/Arazzo-Specification?style=social&color=white)](https://github.com/OAI/Arazzo-Specification/stargazers)  
+    **The OpenAPI Initiative's specification for API workflows** (Apache-2.0). Complements OpenAPI by formally describing multi-step API invocation workflows, authentication handshakes, and business sequences.
 
-  **The most popular open-source documentation framework** (MIT) . **60,000+ GitHub stars** . **Supports OpenAPI rendering via plugins**, versioning, internationalization, and search. **The standard for technical documentation sites**—used by Meta, Supabase, and countless open-source projects.
+26. **[Specmatic](https://github.com/specmatic/specmatic)** [![Stars](https://img.shields.io/github/stars/specmatic/specmatic?style=social&color=white)](https://github.com/specmatic/specmatic/stargazers)  
+    **Contract-driven development and contract testing for OpenAPI** (Apache-2.0). Turns OpenAPI specifications into executable contract tests and smart mock servers to ensure backward compatibility.
 
+27. **[Shins](https://github.com/Mermade/shins)** [![Stars](https://img.shields.io/github/stars/Mermade/shins?style=social&color=white)](https://github.com/Mermade/shins/stargazers)  
+    **Node.js port of Slate** (MIT). Generates responsive three-column API documentation from Markdown without requiring a Ruby environment.
 
-
-- **[MkDocs](https://github.com/mkdocs/mkdocs)**  
-
-  **Static site generator for documentation** (BSD-2-Clause) . **20,000+ GitHub stars** . **Supports OpenAPI rendering via plugins** and Markdown authoring. **The Python-native alternative to Docusaurus**—simpler, faster to set up.
-
-
-
-- **[VitePress](https://github.com/vuejs/vitepress)**  
-
-  **Vite-powered static site generator for documentation** (MIT) . **13,000+ GitHub stars** . **The Vue-native alternative** to Docusaurus with excellent performance and modern defaults.
-
-
-
-- **[Nextra](https://github.com/shuding/nextra)**  
-
-  **Next.js-based documentation framework** (MIT) . **12,000+ GitHub stars** . **The React-native choice** for docs sites with full Next.js ecosystem compatibility.
-
-
-
-- **[AsyncAPI](https://github.com/asyncapi/spec)**  
-
-  **The open specification for event-driven APIs** (Apache-2.0) . **The equivalent of OpenAPI for WebSocket, Kafka, MQTT, and AMQP** . **The standard for documenting message-driven architectures.**
-
-
-
-- **[Arazzo Specification](https://github.com/OAI/Arazzo-Specification)**  
-
-  **The OpenAPI Initiative's specification for describing API workflows** (Apache-2.0) . **Documents multi-step API sequences**—workflow descriptions that complement OpenAPI's single-endpoint focus.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Elements (Stoplight)](https://github.com/stoplightio/elements)** — Open-source API documentation components (Apache-2.0) . **Embeddable React components** for API reference, powered by Stoplight's rendering engine .
-
-- **[widdershins](https://github.com/Mermade/widdershins)** — Convert OpenAPI to Slate/Shins markdown (MIT) . **The bridge between specs and prose documentation** .
-
-- **[Slate](https://github.com/slatedocs/slate)** — Beautiful static documentation for APIs (Apache-2.0) . **35,000+ GitHub stars** . **The original three-panel API docs layout** that Redoc improved upon .
-
-- **[Shins](https://github.com/Mermade/shins)** — Static documentation generator (MIT) . **The maintained fork of Slate** with better performance .
-
-- **[openapi-typescript](https://github.com/openapi-ts/openapi-typescript)** — Generate TypeScript types from OpenAPI specs (MIT) . **4,000+ GitHub stars** . **The standard for typed API clients in TypeScript** .
-
-- **[RapiDoc](https://github.com/rapi-doc/RapiDoc)** — Custom element for OpenAPI documentation (MIT) . **The most customizable open-source API docs renderer** .
-
-- **[Zudoku](https://github.com/zuplo/zudoku)** — Open-source API documentation framework (MIT) . **The newest entrant** with modern architecture and OpenAPI support .
-
-- **[Bump.sh](https://github.com/bump-sh/cli)** — Open-source CLI for API documentation deployment (MIT) . **Tracks API changes and generates changelogs** .
-
-- **[Fern](https://github.com/fern-api/fern)** — Open-source SDK and docs generator (MIT) . **Generates idiomatic SDKs and documentation from OpenAPI specs** .
-
-- Community **n8n** workflows for API spec validation and documentation publishing automation.
-
-
-
-**Frameworks for building custom systems**: Combine **Redoc** or **Scalar** for API reference rendering with **Spectral** for spec linting, **OpenAPI Generator** for SDK generation, **Docusaurus** or **MkDocs** for documentation sites, and **AsyncAPI** for event-driven specs—creating a fully self-hosted, enterprise-grade API documentation platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- API documentation tools handling specifications and credentials must follow security best practices and avoid exposing secrets in examples.
-
-- **Open-source API documentation is mature and production-ready.** Redoc and Swagger UI are the two most widely deployed API docs renderers . Scalar brings modern design to the same problem . OpenAPI Generator creates typed SDKs from specs . **These are genuine alternatives to ReadMe and Stoplight.**
-
-- **Spec linting is the governance layer.** Spectral enforces API style guides in CI/CD—catches breaking changes, naming violations, and documentation gaps before merge . **Documentation without governance drifts from implementation.**
-
-- **AsyncAPI extends the same discipline to event-driven APIs.** WebSocket, Kafka, MQTT, and AMQP architectures need the same specification rigor as REST endpoints . **OpenAPI's single-endpoint focus is insufficient for message-driven systems.**
-
-- **Docs frameworks are converging on OpenAPI-native rendering.** Docusaurus, MkDocs, VitePress, and Nextra all support OpenAPI plugins . **The choice is about authoring experience and ecosystem fit, not spec support.**
-
-- Self-hosted open-source solutions require proper security hardening, build pipeline management, and ongoing maintenance. **Documentation is developer experience**—broken links and outdated specs erode trust in the API itself.
-
-
+28. **[Bump.sh CLI](https://github.com/bump-sh/cli)** [![Stars](https://img.shields.io/github/stars/bump-sh/cli?style=social&color=white)](https://github.com/bump-sh/cli/stargazers)  
+    **Open-source CLI for API spec validation and automated changelogs** (MIT). Compares OpenAPI and AsyncAPI specs to detect breaking changes and generate diffs in continuous deployment pipelines.
 
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-API-Documentation-Specifications&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-API-Documentation-Specifications&type=date&legend=top-left)
 
-**Made for API product teams, developer experience engineers, and technical writers building transparent documentation solutions.**  
+---
 
-Let's make API Documentation & Specifications more open, data-driven, and spec-native.
+## 🤝 Support & Sponsorship
+
+Thank you for exploring and utilizing **Awesome-API-Documentation-Specifications**! ❤️
+
+If you find this curated ecosystem directory helpful for your development workflow, team decisions, or open-source stack, please consider supporting the project:
+
+- ⭐ **Star this repository** to help other developers and architects discover it.
+- 🍴 **Fork the project** and share it with your engineering team, tech writing group, or developer community.
+- 📢 **Share on social networks**: Mention it on Twitter/X, LinkedIn, Reddit, or your developer blog.
+- ☕ **Sponsor the Maintainer**: Support ongoing curation, research, and maintenance by buying a coffee via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ✍️ How to Contribute
+
+1. 🍴 Fork the repository.
+2. 📝 Add or edit entries in `README.md` following the established table / list format.
+3. 🔗 Include: official product/project name, direct link, GitHub star badge (for OSS), concise description, and pricing/scale details.
+4. 🚀 Submit a Pull Request with a clear explanation of why the addition benefits the API ecosystem.
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated directory** provided for educational, architectural, and informational purposes.
+- Always adhere to cybersecurity best practices when hosting API documentation or mock servers—ensure API keys, tokens, and sensitive backend environment variables are never exposed in public examples.
+- Open-source platforms like **Swagger UI**, **Redoc**, and **Scalar** provide robust, self-hosted alternatives to commercial hosted platforms. Pairing them with linters like **Spectral** and generator engines like **OpenAPI Generator** delivers an enterprise-grade API documentation lifecycle without vendor lock-in.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for API product teams, DevEx engineers, and technical writers building open, spec-native platforms.</b>
+</p>
+
